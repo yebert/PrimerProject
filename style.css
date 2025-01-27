@@ -1,5 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Roboto";
+}
+
+/* Start Section 2 Catchy*/
+#someCatchyLineContainer{
+    background-color: #C4C4C4;
+    display:flex;
+    justify-content: center;
+    padding: 2rem 4rem 3rem 4rem;
+    height:582px;
+}
+
+#catchyLineFlexContainer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#editorsChoiceContainer{
+    background-color: #ededed;
+    padding:1rem;
+    padding-right:3rem;
+    margin-right: 10rem;
+    width:513px;
+    height:458px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#editorsChoice{
+    background-color: white;
+    width: 350px;
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+}
+
+#CatchyLineActualText{
+    font-size:18px;
+    align-self: center;
+    margin-top:5rem;
+    margin-bottom:3rem;
+    height: 205px;
+}
+
+#CatchyLineHeadline{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+#tryForFree{
+    background-color: white;
+    width: 195px;
+    height: 51px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 51px;
+    text-align: center;
+}
+
+#demoContainer{
+    background-color: #ededed;
+    padding: 1rem;
+    border-radius: 47px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    width: 286px;
+    height: 458px;
+}
+
+
+#demoTextContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#demoHeadline{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#demoText{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    height:60px;
+    align-self: center;
+    margin-top:1rem
+}
+
+#continueText{
+    width:195px;
+    background-color:white;
+    height:51px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 51px;
+    align-self: center;
+}
+/* Ende Section 2 Catchy*/
+
+/*Start Section 5 awesome app features*/
+
+#awesomeAppsFeatures{
+    text-align: center;
+    background-color: #C4C4C4;
+    height:601px;
+    border: black 1px solid;
+    padding:2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+#awesomeAppsFeaturesHeader{
+    height:205px;
+}
+#aAFContentContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height:395px;
+}
+
+#aAFHeadline{
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+#aAFText{
+    font-size: 18px;
+    font-weight: 400;
+}
+.aAFContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 297px;
+}
+
+.aAFContent div{
+    background-color: white;
+    border-radius: 50%;
+    width:101px;
+    height:98px;
+    aspect-ratio:1;
+    color: white;
+    align-self: center;
+}
+
+.aAFContent span {
+    margin-top: 2rem;
+    height: 202px;
+    width:297px;
+    font-size: 18px;
+}
+/*Ende Section 5 awesome app features*/
+
+/*Start Section 7 get awesome features*/
+
+#getAwesomeFeatures{
+    text-align: center;
+    background-color: #C4C4C4;
+    height:734px;
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#gAFHeader{
+    
+    height: 205px;
+}
+#gAFHeadline{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+#gAFText{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#pricesContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:2rem;
+}
+
+.pricesContent{
+    height:396px;
+    background-color: white;
+    padding:26px 26px 20px 26px;
+    min-width: 291px;
+    max-width: 291px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pricesContent span {
+    font-size: 48px;
+    font-weight: 400;
+    height:205px;
+    margin-bottom: auto;
+}
+
+.pricesContentDiv {
+    
+    height:59px;
+    background-color: #ebebeb;
+    margin-top: auto;
+}
+/*Ende Section 7 get awesome features*/
+
+/*Start Section 8 footer*/
+
+#yourProduct{
+    height:580px;
+    background-color: #ededed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#footerContent{
+    width:390.19px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+#footerHeadline{
+    font-size: 36px;
+}
+
+#footerNavLinks{
+    display:flex;
+    gap:50px;
+}
+
+#footerNavLinks span{
+    font-size: 24px;
+}
+#footerSocialLinks{
+    display: flex;
+    flex-direction: row;
+    gap:33px;
+}
+#footerSocialLinks div {
+    border-radius: 50%;
+    background-color: #C4C4C4;
+    width:70px;
+    height:70px;
+    line-height: 70px;
+    font-size: 24px;
+}
+/*Ende Section 8 footer*/
