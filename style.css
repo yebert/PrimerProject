@@ -259,6 +259,12 @@ body {
     gap:50px;
 }
 
+#footerNavLinks span a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
 #footerNavLinks span{
     font-size: 24px;
 }
